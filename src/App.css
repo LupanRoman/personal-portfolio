@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans';
+}
+
+body {
+    background-color: #2F2F2F;
+    overflow: hidden;
+    
+}
+
+.nav-bar-component {
+    display: flex;
+    position: fixed;
+    bottom: 0%;
+}
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 50px;
+    align-items: center;
+    /* background-color: #FFFF; */
+    list-style: none;
+}
+
+.nav-list li {
+    margin: 20px;
+    font-size: 30px;
+    cursor: pointer;
+    color: #c7e2da;
+}
+
+.nav-list li:hover {
+    color: #00c896;
+}
+
+.home-component {
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 150px; */
+    justify-content: center;
+    text-align: center;
+    color: #c7e2da;
+    min-height: 100vh;
+}
+
+.heading h1 {
+    font-size: 30px;
+}
+
+.profile-img {
+    background-color: #585858;
+    height: 200px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    border-radius: 100px;
+}
+
+.profile-img img {
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 200px;
+}
+
+
+.social-media-links-nav {
+    display: none;
+}
+
+.social-media {
+    display: flex;
+    list-style: none;
+    margin-top: 20px;
+    width: 300px;
+    justify-content: space-between;
+}
+
+.social-media li {
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.social-media li a {
+    color: #c7e2da;
+    cursor: pointer;
+}
+
+.linkedin:hover {
+    color: #0023cf;
+}
+
+.github:hover {
+    color: #ACA7CB;
+}
+
+.instagram:hover {
+    color: #fee140;
+}
+
+.about-component {
+    min-height: 100vh;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* text-align: center; */
+    max-width: 300px;
+    color: #c7e2da;
+}
+
+.text h4 {
+    font-size: 30px;
+}
+
+.text p {
+    font-size: 25px;
+}
+
+.btns{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 40px;
+    border: none;
+    margin-top: 10px;
+}
+
+.contact-me, .see-my-cv {
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 15px;
+    /* margin-top: 40px; */
+}
+
+.contact-me {
+    margin-left: 48px;
+}
+
+.see-my-cv {
+    margin-right: 50px;
+}
+
+.contact-me:hover {
+    color: #00c896;
+}
+
+.see-my-cv:hover {
+    color: #00c896;
+}
+
+.projects-component {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    /* align-items: center; */
+    text-align: center;
+    margin-top: 200px;
+}
+
+.project1 img {
+    border-radius: 30px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.project1 p {
+    /* display: inline-block; */
+    color: #c7e2da;
+    font-size: 20px;
+}
+
+.project2 {
+    margin-top: 200px;
+}
+
+.project2 a {
+    text-decoration: none;
+    color: #c7e2da;
+    font-size: 20px;
+}
+
+.contacts-component {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* width: 200px; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin-top: 200px;
+    color: #c7e2da;
+}
+
+.contacts-component form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contacts-component input {
+    margin-bottom: 20px;
+    height: 30px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+}
+
+.contacts-component label {
+    font-size: 20px;
+}
+
+.btn-send {
+    margin-top: 20px;
+    width: 200px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.btn-send:hover {
+    color: #00c896;
+}
+
+
+
