@@ -42,7 +42,8 @@ const About = () => {
           duration={500}>
           <button className='contact-me' >Contact Me</button>
           </Link>
-          <button className='see-my-cv'>See my CV</button>
+
+          <button className='see-my-cv'><a target={"_blank"} href="https://www.rabota.md/ro/resume/it/339503">See my CV</a></button>
         </div>
             
         </div>
