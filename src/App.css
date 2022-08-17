@@ -160,6 +160,23 @@ body {
     color: #00c896;
 }
 
+.tech {
+    display: flex;
+    flex-direction: column;
+}
+
+.tech ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 10px;
+}
+
+.tech ul li {
+    margin: 5px;
+    color: #00c896;
+}
+
 .projects-component {
     height: 100vh;
     display: flex;
@@ -412,6 +429,10 @@ body {
     .project2 a {
         text-decoration: none;
         color: #c7e2da;
+        font-size: 20px;
+    }
+
+    .tech ul li {
         font-size: 20px;
     }
 

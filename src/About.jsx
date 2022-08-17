@@ -9,6 +9,19 @@ const About = () => {
         <div className="text">
             <h4>About me</h4>
             <p>I've been passionate about coding for a while, now doing it for a living. I'm a front end developer, developing e-commerce, CRUD type websites, from small to big businesses. I'm an ambitious and well organized person, motivated, optimistic and creative. I'm the one, to get the job done.</p>
+            
+            <div className="tech">
+          <h4>Technologies that i use</h4>
+            <ul>
+            <li>JavaScript</li>
+            <li>React.js</li>
+            <li>Nex.js</li>
+            <li>Node.js</li>
+            <li>Sanity</li>
+            </ul>
+
+            </div>
+
             <div className="social-media-links">
             <ul className='social-media'>
 

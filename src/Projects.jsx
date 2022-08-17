@@ -20,9 +20,9 @@ const Projects = () => {
         </a>
         {/* <p>Planner app</p> */}
         </div>
-
-
       </div>
+
+      
     </>
   )
 }
